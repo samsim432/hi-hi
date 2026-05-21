@@ -1,0 +1,38 @@
+body {
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.container:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+}
+
+.role {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
